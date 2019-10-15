@@ -4,7 +4,12 @@
 #header img{
     width: 80px;
 }
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;/*-->hace que la imagen no se estire y cubra los espacios*/
+    filter: grayscale(60%);/*-->escala de grises en las imagenes*/
 
+}
 #footer{
     background: linear-gradient(90deg,#1c3643, #273b47 25%, #1e5372);
 
