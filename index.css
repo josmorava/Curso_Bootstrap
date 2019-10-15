@@ -1,5 +1,11 @@
 .text-platzi{
     color: #89c93e !important;
+}.btn-platzi{
+    background-color: #89c93e;
+    color: white;
+}
+.btn-platzi:hover{
+    background-color: #82ad36;;
 }
 #header img{
     width: 80px;
